@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8426D6D2-6945-B1A8-691E-116946C52938}</ProjectGuid>
+    <ProjectGuid>{4E911FD5-5C18-D3E3-98AC-5EA38F541CC7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,12 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Materialien/2D-Astar-Pathfinding-in-Unity-master/Pathfinding2D.cs" />
-    <Compile Include="Assets/Materialien/2D-Astar-Pathfinding-in-Unity-master/Node2D.cs" />
-    <Compile Include="Assets/Scripts/FPSLimit.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/GameController.cs" />
+    <Compile Include="Assets/Materialien/2D-Astar-Pathfinding-in-Unity-master/Pathfinding2D.cs" />
     <Compile Include="Assets/Scripts/Zombie.cs" />
+    <Compile Include="Assets/Materialien/2D-Astar-Pathfinding-in-Unity-master/Node2D.cs" />
+    <Compile Include="Assets/Scripts/FPSLimit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

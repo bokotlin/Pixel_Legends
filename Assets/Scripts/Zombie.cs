@@ -39,11 +39,6 @@ public class Zombie : MonoBehaviour
     private void Update()
     {
         spriteRenderer.sortingOrder = (int)(-transform.position.y * 10);
-
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void FixedUpdate()
